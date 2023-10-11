@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+#movieResults img {
+  width: 100%;
+}
+
+#movieResults .col-md-3 .well {
+  height: 390px;
+}
+.col-md-3 {
+  background-color: #262626;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 960px) {
+  .custom-margin {
+    margin-left: 80px;
+  }
+  #movieResults .col-md-3 img {
+    padding: 10px;
+    height: 250px;
+    width: 249px;
+  }
+}
+#moviePoster {
+  width: 100%;
+}
+#infoButton {
+  margin-bottom: 15px;
+}
+#backButton {
+  color: aliceblue;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  #movieDescri {
+    padding-top: 30px;
+  }
+}
+
+#errorMsg {
+  padding: 10px;
+  font-weight: bold;
+}
